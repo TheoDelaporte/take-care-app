@@ -1,70 +1,41 @@
+# Projet d'application d'éthylotest connecté
 
-# azeer_h2d2_s_application5
-### Table of contents
-- [System requirements](#system-requirements)
-- [Figma design guidelines for better UI accuracy](#figma-design-guideline-for-better-accuracy)
-- [Check the UI of the entire app](#app-navigations)
-- [Application structure](#project-structure)
-- [How to format your code?](#how-you-can-do-code-formatting)
-- [How you can improve code readability?](#how-you-can-improve-the-readability-of-code)
-- [Libraries and tools used](#libraries-and-tools-used)
-- [Support](#support)
+Ce projet est une application mobile développée en Flutter dans le cadre d'un projet d'école à MydigitalSchool. L'application d'éthylotest connecté a été réalisée en collaboration avec des élèves spécialisés en marketing digital et en design UX/UI.
 
-### System requirements
+## Objectif du Projet
+L'objectif principal de ce projet était de créer une application mobile innovante permettant aux utilisateurs de réaliser des tests d'alcoolémie de manière simple et efficace. L'application vise à promouvoir la sécurité routière en encourageant les utilisateurs à mesurer leur taux d'alcoolémie avant de prendre le volant.
 
-Dart SDK Version 3.3.2 or greater.
-Flutter SDK Version 3.19.4 or greater.
+## Fonctionnalités Principales
+- **Test d'Alcoolémie Connecté**: L'application permet aux utilisateurs de réaliser un test d'alcoolémie à l'aide d'un appareil connecté compatible.
+- **Authentification Firebase**: Utilisation de Firebase pour gérer l'authentification des utilisateurs, assurant ainsi la sécurité des données et des comptes des utilisateurs.
+- **Suivi de l'Historique des Tests**: Les utilisateurs peuvent consulter l'historique de leurs tests d'alcoolémie précédents, y compris les résultats et les dates.
+- **Notifications**: Notification pour rappeler aux utilisateurs de réaliser des tests d'alcoolémie à intervalles réguliers.
+- **Interface Utilisateur Conviviale**: Design UX/UI élaboré pour offrir une expérience utilisateur intuitive et agréable.
 
-### Figma design guidelines for better UI accuracy
+## Captures d'écran
+<!-- ![Screen 1](screens/screen1.png)
+*Description de l'écran 1*
 
-Read our guidelines to increase the accuracy of design-to-code conversion by optimizing Figma designs.
-https://docs.dhiwise.com/docs/Designguidelines/intro
+![Screen 2](screens/screen2.png)
+*Description de l'écran 2*
 
-### Check the UI of the entire app
+![Screen 3](screens/screen3.png)
+*Description de l'écran 3* -->
 
-Check the UI of all the app screens from a single place by setting up the 'initialRoute'  to AppNavigation in the AppRoutes.dart file.
+## Plateformes Prises en Charge
+L'application a été développée et testée principalement sur les appareils suivants :
+- iPhone 15 Pro Max
+- iPhone 14
 
-### Application structure
-After successful build, your application structure should look like this:
-                    
-```
-.
-├── android                         - It contains files required to run the application on an Android platform.
-├── assets                          - It contains all images and fonts of your application.
-├── ios                             - It contains files required to run the application on an iOS platform.
-├── lib                             - Most important folder in the application, used to write most of the Dart code..
-    ├── main.dart                   - Starting point of the application
-    ├── core
-    │   ├── app_export.dart         - It contains commonly used file imports
-    │   ├── constants               - It contains static constant class file
-    │   └── utils                   - It contains common files and utilities of the application
-    ├── presentation                - It contains widgets of the screens
-    ├── routes                      - It contains all the routes of the application
-    └── theme                       - It contains app theme and decoration classes
-    └── widgets                     - It contains all custom widget classes
-```
-### How to format your code?
+## Équipe de Développement
+Ce projet a été réalisé par une équipe multidisciplinaire comprenant des développeurs mobiles, des spécialistes du marketing digital et des designers UX/UI.
 
-- if your code is not formatted then run following command in your terminal to format code
-  ```
-  dart format .
-  ```
+## Technologies Utilisées
+- Flutter
+- Firebase (Authentification)
 
-### How you can improve code readability?
+## Contributions et Contact
+Pour toute question ou suggestion, n'hésitez pas à nous contacter :
+- [Nom de l'équipe]Takecare
 
-Resolve the errors and warnings that are shown in the application.
-
-### Support
-
-If you have any problems or questions, go to our Discord channel, where we will help you as quickly as possible: https://discord.com/invite/rFMnCG5MZ7
-
-### Fonts
-We were unable to find the following Fonts, Please add manually to ```assets/fonts``` 
-
-```
-NeighborBd.ttf
-NeighborLt.ttf
-NeighborBlk.ttf
-NeighborRg.ttf
-NeighborSmbd.ttf
-```
+Nous sommes ouverts aux contributions et aux collaborations pour améliorer continuellement notre application.
