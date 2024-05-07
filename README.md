@@ -13,14 +13,16 @@ L'objectif principal de ce projet était de créer une application mobile innova
 - **Interface Utilisateur Conviviale**: Design UX/UI élaboré pour offrir une expérience utilisateur intuitive et agréable.
 
 ## Captures d'écran
-<!-- ![Screen 1](screens/screen1.png)
-*Description de l'écran 1*
+![image](https://github.com/TheoDelaporte/take-care-app/assets/62428919/e8c3a32f-423a-45d1-b9e0-2d415d8adecd)
+![image](https://github.com/TheoDelaporte/take-care-app/assets/62428919/b371bc29-2d3f-4a78-a8ed-29942177b8e6)
+![image](https://github.com/TheoDelaporte/take-care-app/assets/62428919/eb373878-07fa-4e2d-a570-c6549b3afe82)
+![image](https://github.com/TheoDelaporte/take-care-app/assets/62428919/5d942d73-69e4-4d7d-9321-e521f6c3a34f)
+![image](https://github.com/TheoDelaporte/take-care-app/assets/62428919/20e23f4d-4fb8-4218-aa61-45774a508b02)
+![image](https://github.com/TheoDelaporte/take-care-app/assets/62428919/e0cbc575-8064-41bb-9fb7-a38cf0f2bb8b)
+![image](https://github.com/TheoDelaporte/take-care-app/assets/62428919/7e283e36-778f-4a5e-9daf-13cd633c8a04)
 
-![Screen 2](screens/screen2.png)
-*Description de l'écran 2*
 
-![Screen 3](screens/screen3.png)
-*Description de l'écran 3* -->
+
 
 ## Plateformes Prises en Charge
 L'application a été développée et testée principalement sur les appareils suivants :
